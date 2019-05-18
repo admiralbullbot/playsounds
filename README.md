@@ -1,0 +1,2 @@
+# playsounds for pajbot
+KKona
