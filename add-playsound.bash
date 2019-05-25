@@ -33,3 +33,5 @@ done
 mkdir -p "./files/$playsound_folder"
 mv "./outputs/$sample_name.ogg" "./files/$playsound_folder/"
 ./format-add.bash "$playsound_folder" >"./import-files/$playsound_folder.txt"
+
+./generate-index.bash
