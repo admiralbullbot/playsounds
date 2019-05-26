@@ -8,5 +8,5 @@ This file contains all available import files.  " > import-files/README.md
 
 for path in import-files/*.txt; do
     filename="$(basename "$path")"
-    echo " * [$filename](/$path)" >> import-files/README.md
+    echo " * [$filename](/playsounds/$path)" >> import-files/README.md
 done
