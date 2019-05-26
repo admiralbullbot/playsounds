@@ -1,0 +1,1 @@
+!add playsound kripp https://pajbot.github.io/playsounds/files/2019-05-26/kripp.ogg
