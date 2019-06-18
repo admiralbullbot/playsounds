@@ -18,7 +18,7 @@ Command to import an entire file:
 
 Clone the repository and run in a bash terminal:
 
-    ./add-playsound.bash playsoundname https://www.example.com/audio.mp3
+    ./add-playsound.sh playsoundname https://www.example.com/audio.mp3
 
 Then commit all the changes and make a pull request
 

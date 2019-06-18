@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# add-playsound.bash adds a given sample with the link to the playsound database. the link can be a local path, it's put straight into ffmpeg
+# add-playsound.sh adds a given sample with the link to the playsound database. the link can be a local path, it's put straight into ffmpeg
 
 set -e
 

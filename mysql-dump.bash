@@ -18,5 +18,5 @@ readarray -t samples <<<"$db_output"
 for sample in "${samples[@]}"; do
     name=$(echo "$sample" | cut -d' ' -f1)
     link=$(echo "$sample" | cut -d' ' -f2)
-    ./add-playsound.bash "$name" "$link"
+    ./add-playsound.sh "$name" "$link"
 done
