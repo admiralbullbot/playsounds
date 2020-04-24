@@ -18,5 +18,5 @@ shopt -s nullglob
 for filename in "files/$foldername"/*.ogg; do
     filename="$(basename "$filename")"
     playsound_name="$(basename "$filename" '.ogg')"
-    echo "!$action playsound $playsound_name https://pajbot.github.io/playsounds/files/$foldername/$filename"
+    echo "!$action playsound $playsound_name https://admiralbullbot.github.io/playsounds/files/$foldername/$filename"
 done
